@@ -1,0 +1,33 @@
+.background-img {
+  height: 100vh;
+}
+// Contains entire body 
+.container {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+// Wrapper of the header elements heading & sub-heading
+.wrapper {
+  // display: flex;
+  // justify-content: 
+}
+.heading, .sub-heading, .description {
+  color: white;
+}
+.heading {
+  padding-top: 50px;
+}
+.sub-heading {
+  padding: 20px;
+}
+.description {
+  padding: 20px;
+}
+.qr-code {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+}
