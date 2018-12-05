@@ -3,7 +3,7 @@
 }
 // Contains entire body 
 .container {
-  height: 100vh;
+  padding-top: 100px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -14,14 +14,14 @@
   // display: flex;
   // justify-content: 
 }
-.heading, .sub-heading, .description {
+.sub-heading, .description {
   color: white;
 }
 .heading {
-  padding-top: 50px;
+  color: #067585;
 }
 .sub-heading {
-  padding: 20px;
+  padding-bottom: 20px;
 }
 .description {
   padding: 20px;
