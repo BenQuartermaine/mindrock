@@ -1,26 +1,18 @@
  <!-- Heading & subheading -->
- <div class="background-img" style="background-image: linear-gradient(-225deg, rgba(220,220,220,0.5) 0%, rgba(196,196,196,0.5) 50%), url(<%= image_path('ocean.jpg') %>);">
-  <div class="container">
-    <div class="row">
-      <div class="col col-xs-12 col-sm-6 offset-sm-3"> 
-      <div class="wrapper">
-          <div class="heading">
-            <h1>MindRock</h1>
-          </div>
-          <div class="sub-heading">
-            <h3>For stronger minds!</h3>
-          </div>
-        </div>
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+
+ <div class="banner" style="background-image: linear-gradient(-225deg, rgba(220,220,220,0.5) 0%, rgba(196,196,196,0.5) 50%), url(<%= image_path('sunrise.jpg') %>);background-size:cover">
+  <div class="banner-content">
+      <div class="col col-xs-12 col-sm-6 offset-sm-3">
+            <h1>MindRock<h1>
+            <h3>For Stronger Minds</h3>
+
         <!-- WeChat Mini Program QR code -->
-          <div class="description">
+         <!--  <div class="description">
           <p>Mind rock is a WeChat Mini Program that challenges you to complete 7-day comfort zone challenges. What does that mean? Think 7-days of talking to a stranger or giving a compliment to a friend.</p>
-        </div>
+        </div> -->
 
         <img class="qr-code" src="<%= image_path('mindrock.jpg') %>" alt="WeChat Mini program QR code">
-
-        <!-- Description section -->
-      
-      </div>
     </div>
-  </div> 
+  </div>
 </div>
