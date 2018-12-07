@@ -1,33 +1,39 @@
-.background-img {
-  height: 100vh;
-}
-// Contains entire body 
-.container {
-  padding-top: 100px;
+
+.banner {
+  color: white;
   text-align: center;
+  height: 100vh;
+  background-size: cover !important;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
 }
 
-// Wrapper of the header elements heading & sub-heading
-.wrapper {
-  // display: flex;
-  // justify-content: 
+.banner-content{
+  width: 1000px;
 }
-.sub-heading, .description {
+.banner-content h1 {
+  color:#327383;
+  font-family: 'Acme', sans-serif;
+  font-size:80px;
+}
+.banner-content h3{
+  padding-top:30px;
   color: white;
+  width:100%;
+  font-size:35px;
+  font-family: 'Acme', sans-serif;
 }
-.heading {
-  color: #067585;
-}
-.sub-heading {
-  padding-bottom: 20px;
-}
-.description {
-  padding: 20px;
-}
+
+
 .qr-code {
+  margin-top:30px;
+  padding:10px;
   height: 200px;
   width: 200px;
-  border-radius: 5px;
 }
